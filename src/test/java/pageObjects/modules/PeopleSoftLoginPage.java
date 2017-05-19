@@ -127,7 +127,7 @@ public class PeopleSoftLoginPage extends PageFactoryInitializer
 	@FindBy(xpath="//input[@id='#ICSave']")
 	private WebElement headerNotes_Save;
 	
-	@FindBy(xpath="//input[@id='#ICSave']")
+	@FindBy(xpath="//span[@id='BI_HDR_INVOICE']")
 	private WebElement getInvoiceNumber;
 	
 	
@@ -406,6 +406,7 @@ public class PeopleSoftLoginPage extends PageFactoryInitializer
 
 	public PeopleSoftLoginPage getInvoiceValue() throws Exception
 	{
+		Thread.sleep(10000);
 		FluentWaiting.waitUntillElementToBeVisible(30, 500, getInvoiceNumber);
 		//String InvoiceNumber = getInvoiceNumber.getText().trim();
 		System.out.println(getInvoiceNumber.getText());

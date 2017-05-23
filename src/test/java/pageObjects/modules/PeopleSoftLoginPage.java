@@ -5,24 +5,20 @@ package pageObjects.modules;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Reporter;
 
-import ch.lambdaj.proxy.InvocationInterceptor;
+import controllers.ApplicationConfiguration;
 import pageObjects.initializePageObjects.PageFactoryInitializer;
 import ru.yandex.qatools.allure.annotations.Step;
-import ru.yandex.qatools.htmlelements.element.FileInput;
 import utils.FluentWaiting;
 
 /**
@@ -32,117 +28,117 @@ public class PeopleSoftLoginPage extends PageFactoryInitializer
 {
 	@FindBy(id="userid")
 	private WebElement UserID;
-	
+
 	@FindBy(id="pwd")
 	private WebElement Password;
 
 	@FindBy(xpath="//input[@name='Submit']")
 	private WebElement SignIn;
-	
+
 	@FindBy(id="pthnavbca_MYFAVORITES")
 	private WebElement Favorities_Menu;
-	
+
 	@FindBy(xpath="(//a[contains(text(),'Standard Billing')])[1]")
 	private WebElement submenu_StandardBilling;
-	
+
 	@FindBy(xpath="//div[@id='win0divSEARCHMODE']/descendant::a[contains(text(),'Add a New Value')]")
 	private WebElement tabs_AddNewValue;
-	
+
 	@FindBy(xpath="//tr[@role='tablist']/descendant::a[2]")
 	private WebElement tabs_FindAnExistingValue;
-	
+
 	@FindBy(xpath="//td/label[contains(text(),'Business Unit:')]/following::input[1]")
 	private WebElement addNewValue_BusinessUnit;
-	
+
 	@FindBy(xpath="//td/label[contains(text(),'Business Unit:')]/following::input[2]")
 	private WebElement addNewValue_Invoice;
-	
+
 	@FindBy(xpath="//td/label[contains(text(),'Business Unit:')]/following::input[3]")
 	private WebElement addNewValue_BillTypeIdentifier;
-	
+
 	@FindBy(xpath="//td/label[contains(text(),'Business Unit:')]/following::input[4]")
 	private WebElement addNewValue_BillSource;
-	
+
 	@FindBy(xpath="//td/label[contains(text(),'Business Unit:')]/following::input[5]")
 	private WebElement addNewValue_Customer;
-	
+
 	@FindBy(xpath="//td/label[contains(text(),'Business Unit:')]/following::input[6]")
 	private WebElement addNewValue_InvoiceDate;
-	
+
 	@FindBy(xpath="//td/label[contains(text(),'Business Unit:')]/following::input[7]")
 	private WebElement addNewValue_AccountingDate;
-	
+
 	@FindBy(xpath="//td/label[contains(text(),'Business Unit:')]/following::input[8]")
 	private WebElement addNewValue_Button_Add;
-	
+
 	@FindBy(xpath="//iframe[@id='ptifrmtgtframe']")
 	private WebElement frame_AddANewValue;
-	
+
 	@FindBy(css="#ICTAB_0 span")
 	private WebElement infoPage_Tabs_HeaderInfo;
-	
+
 	@FindBy(css="#ICTAB_1 span")
 	private WebElement infoPage_Tabs_LineInfo;
-	
+
 	@FindBy(css="#BI_HDR_PYMNT_TERMS_CD")
 	private WebElement infoPage_Fields_PayTerms;
-	
+
 	@FindBy(xpath="//a[@id='BI_PB_WRK_BI_HDR_NOTES_PB']")
 	private WebElement infoPage_Fields_Notes;
-	
+
 	@FindBy(xpath="//input[@id='BI_LINE_IDENTIFIER$0']")
 	private WebElement lineInfoTab_Identifier;
-	
+
 	@FindBy(xpath="//input[@id='DERIVED_WORK_BI_LINE_DESCR$0']")
 	private WebElement lineInfoTab_Description;
-	
+
 	@FindBy(xpath="//input[@id='BI_LINE_QTY$0']")
 	private WebElement lineInfoTab_Quantity;
-	
+
 	@FindBy(xpath="//input[@id='BI_LINE_UNIT_OF_MEASURE$0']")
 	private WebElement lineInfoTab_UOM;
-	
+
 	@FindBy(xpath="//input[@id='BI_LINE_UNIT_AMT$0']")
 	private WebElement lineInfoTab_UnitPrice;
-	
+
 	@FindBy(xpath="//a[contains(text(),'Accounting')]")
 	private WebElement lineInfoTab_Accounting;
-	
+
 	@FindBy(xpath="//input[@id='ACCOUNT$0']")
 	private WebElement revDistribution_Account;
-	
+
 	@FindBy(xpath="//input[@id='OPERATING_UNIT$0']")
 	private WebElement revDistribution_OperatingUnit;
-	
+
 	@FindBy(xpath="//input[@id='DEPTID$0']")
 	private WebElement revDistribution_Department;
-	
+
 	@FindBy(xpath="//input[@id='PRODUCT$0']")
 	private WebElement revDistribution_Product;
-	
+
 	@FindBy(xpath="//input[@id='AFFILIATE$0']")
 	private WebElement revDistribution_Affliate;
-	
+
 	@FindBy(xpath="//input[@id='CHARTFIELD1$0']")
 	private WebElement revDistribution_StateProv;
-	
+
 	@FindBy(xpath="//input[@id='CHARTFIELD2$0']")
 	private WebElement revDistribution_SubAccount;
-	
+
 	@FindBy(xpath="//input[@id='CHARTFIELD3$0']")
 	private WebElement revDistribution_Project;
-	
+
 	@FindBy(xpath="//textarea[@id='DERIVED_WORK_BI_HDR_NOTE_TEXT$0']")
 	private WebElement headerNotes_NotesTextArea;
-	
+
 	@FindBy(xpath="//input[@id='#ICSave']")
 	private WebElement headerNotes_Save;
-	
+
 	@FindBy(xpath="//span[@id='BI_HDR_INVOICE']")
 	private WebElement getInvoiceNumber;
-	
-	
-	
+
+
+
 	@Step("To Enter User ID, Password and Click SignIn Button")
 	public PeopleSoftLoginPage login(String username, String password)
 	{
@@ -151,8 +147,8 @@ public class PeopleSoftLoginPage extends PageFactoryInitializer
 		SignIn.click();
 		return this;
 	}
-	
-	
+
+
 	@Step("To Click on Favorities Menu")
 	public PeopleSoftLoginPage clickOnFavorities() throws Exception
 	{
@@ -160,7 +156,7 @@ public class PeopleSoftLoginPage extends PageFactoryInitializer
 		Favorities_Menu.click();
 		return this;
 	}
-	
+
 	@Step("To Click on Standard Billing")
 	public PeopleSoftLoginPage clickOnStandardBilling() throws Exception
 	{
@@ -168,7 +164,7 @@ public class PeopleSoftLoginPage extends PageFactoryInitializer
 		submenu_StandardBilling.click();
 		return this;
 	}
-	
+
 	@Step("To Click on Add a New Value Button")
 	public PeopleSoftLoginPage clickOnAddANewValueTab() throws Exception
 	{
@@ -422,40 +418,40 @@ public class PeopleSoftLoginPage extends PageFactoryInitializer
 		String InvoiceNumber = getInvoiceNumber.getText();
 		System.out.println(getInvoiceNumber.getText());
 		Reporter.log(getInvoiceNumber.getText());
-		File src = new File("C:\\Users\\sahana.ak\\Test123.xls");
 		
+		
+		ApplicationConfiguration appConfig = new ApplicationConfiguration();
+		String excel_FilePath = appConfig.getFilePath();
+		File src = new File(excel_FilePath);
 		System.out.println("Deepak");
 		FileInputStream fis = new FileInputStream(src);
 		FileOutputStream fos = null;
-		
 		HSSFWorkbook Wb = new HSSFWorkbook(fis);
 		HSSFSheet sheet1 = Wb.getSheetAt(0);
 		HSSFRow row = null;
 		HSSFCell cell= null;
-		
+
 		int column = 0;
-		
 		row = sheet1.getRow(0);
+		
 		for(int i=0;i<row.getLastCellNum()-1;i++)
 		{
 			if(row.getCell(i).getStringCellValue().trim().equals(InvoiceNumber));
 			{
 				column=i++;
-				
 			}
-			
 		}
-		
+
 		row = sheet1.getRow(2);
 		if(row==null)
 			row = sheet1.createRow(2);
-		
+
 		cell = row.getCell(column);
-		
+
 		if(cell==null)
-			
+
 			cell =row.createCell(column);
-		
+
 		cell.setCellValue(InvoiceNumber);
 		fos=new FileOutputStream(src);
 		Wb.write(fos);
@@ -464,10 +460,4 @@ public class PeopleSoftLoginPage extends PageFactoryInitializer
 		switchOutOfFrame();
 		return this;
 	}
-
-
-	
-
-	
-
 }

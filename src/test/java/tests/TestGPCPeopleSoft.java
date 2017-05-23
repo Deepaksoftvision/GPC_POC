@@ -22,7 +22,7 @@ public class TestGPCPeopleSoft extends PageFactoryInitializer {
 	public void TC_POC_002(String BusinessUnit, String Date, String Customer, String Identifier,
 			String Description, String Quantity,String UnitPrice, String Extended, String Account, 
 			String OperatingUnit,String Department, String Product, String Affiliate, String	State_Prov, 
-			String SubAccount, String Project, String Code, String note,String Invoice, 
+			String SubAccount, String Project, String Code, String note, String Invoice, 
 			String SPI_Comments) throws Exception
 	{
 		loginPage()
@@ -54,8 +54,7 @@ public class TestGPCPeopleSoft extends PageFactoryInitializer {
 		.clickOnNotes()
 		.enterNotes(note)
 		.clickOnSaveButton()
-		.getInvoiceValue();
-		
+		.getInvoiceValue();		
 	}
 
 	

@@ -1,6 +1,3 @@
-/**
- * 
- */
 package controllers;
 
 import java.io.File;
@@ -10,11 +7,11 @@ import org.testng.annotations.DataProvider;
 
 import utils.ExcelUtils;
 
-/**
-
- */
 public class ExcelDataProvider extends InitMethod
 {
+	static ApplicationConfiguration appConfig = new ApplicationConfiguration();
+	public static String excel_filepath = appConfig.getFilePath();
+	
 	@DataProvider(name="multiSheetExcelRead")
 	public static Object[][] multiSheetExcelRead(Method method) throws Exception
 	{
@@ -33,15 +30,13 @@ public class ExcelDataProvider extends InitMethod
 		return testObjArray;
 	}
 
-	
+
 	@DataProvider(name="standardBillingMay18")
 	public static Object[][] standardBillingMay18(Method method) throws Exception
 	{
-		File file = new File("src/test/resources/Excel Files/Test123.xls");
+		File file = new File(excel_filepath);
 		System.out.println(file);
 		Object testObjArray[][] = ExcelUtils.getTableArray(file.getAbsolutePath());
 		return testObjArray;
 	}
-	
-	
 }

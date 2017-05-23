@@ -32,6 +32,14 @@ public class ApplicationConfiguration
 
 	@Property("VideoRecordingFeature")
 	private String VideoRecordingFeature;
+	
+	@Property("FilePath")
+	private String FilePath;
+
+	public String getFilePath()
+	{
+		return FilePath;
+	}
 
 	public String getBrowserName()
 	{

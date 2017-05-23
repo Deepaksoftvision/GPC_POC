@@ -21,8 +21,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 /**
- * @Author Gladson Antony
- * @Date 27-Jan-2017
+
  */
 public class TestHelper extends TestController
 {
@@ -36,6 +35,11 @@ public class TestHelper extends TestController
 		return WebSiteName;
 	}
 
+	
+	
+	
+	
+	
 
 	/* To Press ENTER Key using Robot */
 	public void hitEnter() throws Exception 

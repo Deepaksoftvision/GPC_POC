@@ -55,8 +55,10 @@ public class TestGPCPeopleSoft extends PageFactoryInitializer {
 		.enterNotes(note)
 		.clickOnSaveButton()
 		.getInvoiceValue();
-		Thread.sleep(10000);
+		
 	}
+
+	
 
 
 	/*

@@ -3,18 +3,29 @@
  */
 package pageObjects.modules;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+import org.apache.poi.hssf.usermodel.HSSFCell;
+import org.apache.poi.hssf.usermodel.HSSFRow;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Reporter;
 
+import ch.lambdaj.proxy.InvocationInterceptor;
 import pageObjects.initializePageObjects.PageFactoryInitializer;
 import ru.yandex.qatools.allure.annotations.Step;
+import ru.yandex.qatools.htmlelements.element.FileInput;
 import utils.FluentWaiting;
 
 /**
- * @author Gladson Antony
- * @date Sep 17, 2016
  * 
  */
 public class PeopleSoftLoginPage extends PageFactoryInitializer
@@ -408,10 +419,55 @@ public class PeopleSoftLoginPage extends PageFactoryInitializer
 	{
 		Thread.sleep(10000);
 		FluentWaiting.waitUntillElementToBeVisible(30, 500, getInvoiceNumber);
-		//String InvoiceNumber = getInvoiceNumber.getText().trim();
+		String InvoiceNumber = getInvoiceNumber.getText();
 		System.out.println(getInvoiceNumber.getText());
 		Reporter.log(getInvoiceNumber.getText());
+		File src = new File("C:\\Users\\sahana.ak\\Test123.xls");
+		
+		System.out.println("Deepak");
+		FileInputStream fis = new FileInputStream(src);
+		FileOutputStream fos = null;
+		
+		HSSFWorkbook Wb = new HSSFWorkbook(fis);
+		HSSFSheet sheet1 = Wb.getSheetAt(0);
+		HSSFRow row = null;
+		HSSFCell cell= null;
+		
+		int column = 0;
+		
+		row = sheet1.getRow(0);
+		for(int i=0;i<row.getLastCellNum()-1;i++)
+		{
+			if(row.getCell(i).getStringCellValue().trim().equals(InvoiceNumber));
+			{
+				column=i++;
+				
+			}
+			
+		}
+		
+		row = sheet1.getRow(2);
+		if(row==null)
+			row = sheet1.createRow(2);
+		
+		cell = row.getCell(column);
+		
+		if(cell==null)
+			
+			cell =row.createCell(column);
+		
+		cell.setCellValue(InvoiceNumber);
+		fos=new FileOutputStream(src);
+		Wb.write(fos);
+		fos.close();
+		System.out.println("End");
 		switchOutOfFrame();
 		return this;
-	}	
+	}
+
+
+	
+
+	
+
 }

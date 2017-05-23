@@ -11,8 +11,7 @@ import org.testng.annotations.DataProvider;
 import utils.ExcelUtils;
 
 /**
- * @Author Gladson Antony
- * @Date 21-Feb-2017
+
  */
 public class ExcelDataProvider extends InitMethod
 {
@@ -43,4 +42,6 @@ public class ExcelDataProvider extends InitMethod
 		Object testObjArray[][] = ExcelUtils.getTableArray(file.getAbsolutePath());
 		return testObjArray;
 	}
+	
+	
 }

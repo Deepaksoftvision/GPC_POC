@@ -1,0 +1,14 @@
+utils\ExcelUtils.class
+utils\SpecializedScreenRecorder.class
+utils\FluentWaiting.class
+utils\RandomGenerator.class
+controllers\ExcelDataProvider.class
+utils\EnvironmentSetup.class
+controllers\BrowserFactory.class
+controllers\TestController.class
+listeners\AllureListener.class
+controllers\TestHelper.class
+utils\AllureAttachments.class
+utils\DateAndTime.class
+controllers\ApplicationConfiguration.class
+controllers\InitMethod.class

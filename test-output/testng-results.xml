@@ -1,0 +1,1496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+    <line>
+      <![CDATA[10000119983]]>
+    </line>
+    <line>
+      <![CDATA[10000119984]]>
+    </line>
+    <line>
+      <![CDATA[10000119985]]>
+    </line>
+    <line>
+      <![CDATA[10000119986]]>
+    </line>
+    <line>
+      <![CDATA[10000119987]]>
+    </line>
+    <line>
+      <![CDATA[10000119988]]>
+    </line>
+    <line>
+      <![CDATA[10000119989]]>
+    </line>
+    <line>
+      <![CDATA[10000119990]]>
+    </line>
+    <line>
+      <![CDATA[10000119991]]>
+    </line>
+    <line>
+      <![CDATA[10000119992]]>
+    </line>
+    <line>
+      <![CDATA[10000119993]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="800228" started-at="2017-05-25T05:27:50Z" finished-at="2017-05-25T05:41:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="800228" started-at="2017-05-25T05:27:50Z" finished-at="2017-05-25T05:41:11Z">
+      <class name="tests.TestGPCPeopleSoft">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="beforeSuite" is-config="true" duration-ms="159" started-at="2017-05-25T10:57:50Z" finished-at="2017-05-25T10:57:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="StartBrowser" is-config="true" duration-ms="17982" started-at="2017-05-25T10:57:51Z" finished-at="2017-05-25T10:58:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method status="PASS" signature="startRecording(java.lang.reflect.Method)[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="startRecording" is-config="true" duration-ms="1011" started-at="2017-05-25T10:58:09Z" finished-at="2017-05-25T10:58:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TestGPCPeopleSoft.TC_POC_001()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecording -->
+        <test-method status="PASS" signature="TC_POC_001()[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="TC_POC_001" duration-ms="12652" started-at="2017-05-25T10:58:10Z" finished-at="2017-05-25T10:58:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_POC_001 -->
+        <test-method status="PASS" signature="stoprec()[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="stoprec" is-config="true" duration-ms="1" started-at="2017-05-25T10:58:22Z" finished-at="2017-05-25T10:58:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stoprec -->
+        <test-method status="PASS" signature="startRecording(java.lang.reflect.Method)[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="startRecording" is-config="true" duration-ms="24" started-at="2017-05-25T10:58:24Z" finished-at="2017-05-25T10:58:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TestGPCPeopleSoft.TC_POC_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecording -->
+        <test-method status="PASS" signature="TC_POC_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="TC_POC_002" duration-ms="79982" started-at="2017-05-25T10:58:24Z" data-provider="standardBillingMay18" finished-at="2017-05-25T10:59:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5/17/2017]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1619987]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[E Moreno Overshort]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[corr BBI 0856922 portion bkwds]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0.35]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[100602]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[101476]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[UNIT PRICE AND GROSS EXTENED IS NOT MATCHING]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[10000119983]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_POC_002 -->
+        <test-method status="PASS" signature="stoprec()[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="stoprec" is-config="true" duration-ms="1" started-at="2017-05-25T10:59:44Z" finished-at="2017-05-25T10:59:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stoprec -->
+        <test-method status="PASS" signature="startRecording(java.lang.reflect.Method)[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="startRecording" is-config="true" duration-ms="34" started-at="2017-05-25T10:59:44Z" finished-at="2017-05-25T10:59:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TestGPCPeopleSoft.TC_POC_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecording -->
+        <test-method status="PASS" signature="TC_POC_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="TC_POC_002" duration-ms="68669" started-at="2017-05-25T10:59:44Z" data-provider="standardBillingMay18" finished-at="2017-05-25T11:00:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5/22/2017]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[401388]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Trac Rental]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[189]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[654500]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[100705]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[D&D Auto Fleet]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[10000119984]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_POC_002 -->
+        <test-method status="PASS" signature="stoprec()[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="stoprec" is-config="true" duration-ms="1" started-at="2017-05-25T11:00:53Z" finished-at="2017-05-25T11:00:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stoprec -->
+        <test-method status="PASS" signature="startRecording(java.lang.reflect.Method)[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="startRecording" is-config="true" duration-ms="74" started-at="2017-05-25T11:00:53Z" finished-at="2017-05-25T11:00:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TestGPCPeopleSoft.TC_POC_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecording -->
+        <test-method status="PASS" signature="TC_POC_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="TC_POC_002" duration-ms="66540" started-at="2017-05-25T11:00:53Z" data-provider="standardBillingMay18" finished-at="2017-05-25T11:02:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5/22/2017]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400868]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Trac Rental]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[129]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[654500]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[100705]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[ProLube]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[10000119985]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_POC_002 -->
+        <test-method status="PASS" signature="stoprec()[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="stoprec" is-config="true" duration-ms="0" started-at="2017-05-25T11:02:00Z" finished-at="2017-05-25T11:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stoprec -->
+        <test-method status="PASS" signature="startRecording(java.lang.reflect.Method)[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="startRecording" is-config="true" duration-ms="40" started-at="2017-05-25T11:02:00Z" finished-at="2017-05-25T11:02:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TestGPCPeopleSoft.TC_POC_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecording -->
+        <test-method status="PASS" signature="TC_POC_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="TC_POC_002" duration-ms="66211" started-at="2017-05-25T11:02:00Z" data-provider="standardBillingMay18" finished-at="2017-05-25T11:03:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5/22/2017]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3506559]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Trac Rental]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[139]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[654500]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[100705]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Action Auto]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[10000119986]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_POC_002 -->
+        <test-method status="PASS" signature="startRecording(java.lang.reflect.Method)[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="startRecording" is-config="true" duration-ms="73" started-at="2017-05-25T11:03:06Z" finished-at="2017-05-25T11:03:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TestGPCPeopleSoft.TC_POC_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecording -->
+        <test-method status="PASS" signature="stoprec()[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="stoprec" is-config="true" duration-ms="0" started-at="2017-05-25T11:03:06Z" finished-at="2017-05-25T11:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stoprec -->
+        <test-method status="PASS" signature="TC_POC_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="TC_POC_002" duration-ms="67476" started-at="2017-05-25T11:03:06Z" data-provider="standardBillingMay18" finished-at="2017-05-25T11:04:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5/22/2017]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[404386]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Trac Rental]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[119]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[654500]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[100705]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Pro Tech]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[10000119987]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_POC_002 -->
+        <test-method status="PASS" signature="stoprec()[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="stoprec" is-config="true" duration-ms="0" started-at="2017-05-25T11:04:14Z" finished-at="2017-05-25T11:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stoprec -->
+        <test-method status="PASS" signature="startRecording(java.lang.reflect.Method)[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="startRecording" is-config="true" duration-ms="19" started-at="2017-05-25T11:04:14Z" finished-at="2017-05-25T11:04:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TestGPCPeopleSoft.TC_POC_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecording -->
+        <test-method status="PASS" signature="TC_POC_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="TC_POC_002" duration-ms="66491" started-at="2017-05-25T11:04:14Z" data-provider="standardBillingMay18" finished-at="2017-05-25T11:05:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5/22/2017]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3511484]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Trac Rental]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[219]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[654500]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[100705]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Wagen Haus]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[10000119988]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_POC_002 -->
+        <test-method status="PASS" signature="stoprec()[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="stoprec" is-config="true" duration-ms="0" started-at="2017-05-25T11:05:20Z" finished-at="2017-05-25T11:05:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stoprec -->
+        <test-method status="PASS" signature="startRecording(java.lang.reflect.Method)[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="startRecording" is-config="true" duration-ms="23" started-at="2017-05-25T11:05:20Z" finished-at="2017-05-25T11:05:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TestGPCPeopleSoft.TC_POC_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecording -->
+        <test-method status="PASS" signature="TC_POC_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="TC_POC_002" duration-ms="65090" started-at="2017-05-25T11:05:20Z" data-provider="standardBillingMay18" finished-at="2017-05-25T11:06:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5/22/2017]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[406870]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Trac Rental]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[129]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[654500]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[100705]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Checker Cab]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[10000119989]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_POC_002 -->
+        <test-method status="PASS" signature="stoprec()[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="stoprec" is-config="true" duration-ms="0" started-at="2017-05-25T11:06:25Z" finished-at="2017-05-25T11:06:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stoprec -->
+        <test-method status="PASS" signature="startRecording(java.lang.reflect.Method)[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="startRecording" is-config="true" duration-ms="38" started-at="2017-05-25T11:06:25Z" finished-at="2017-05-25T11:06:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TestGPCPeopleSoft.TC_POC_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecording -->
+        <test-method status="PASS" signature="TC_POC_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="TC_POC_002" duration-ms="66528" started-at="2017-05-25T11:06:25Z" data-provider="standardBillingMay18" finished-at="2017-05-25T11:07:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5/22/2017]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[411493]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Trac Rental]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[229]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[654500]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[100705]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Xpress Truck Service]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[10000119990]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_POC_002 -->
+        <test-method status="PASS" signature="stoprec()[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="stoprec" is-config="true" duration-ms="0" started-at="2017-05-25T11:07:32Z" finished-at="2017-05-25T11:07:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stoprec -->
+        <test-method status="PASS" signature="startRecording(java.lang.reflect.Method)[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="startRecording" is-config="true" duration-ms="42" started-at="2017-05-25T11:07:32Z" finished-at="2017-05-25T11:07:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TestGPCPeopleSoft.TC_POC_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecording -->
+        <test-method status="PASS" signature="TC_POC_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="TC_POC_002" duration-ms="65857" started-at="2017-05-25T11:07:32Z" data-provider="standardBillingMay18" finished-at="2017-05-25T11:08:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5/22/2017]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[401646]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Trac Rental]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[224]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[654500]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[100705]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[AA Auto Repair]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[10000119991]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_POC_002 -->
+        <test-method status="PASS" signature="stoprec()[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="stoprec" is-config="true" duration-ms="1" started-at="2017-05-25T11:08:38Z" finished-at="2017-05-25T11:08:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stoprec -->
+        <test-method status="PASS" signature="startRecording(java.lang.reflect.Method)[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="startRecording" is-config="true" duration-ms="56" started-at="2017-05-25T11:08:38Z" finished-at="2017-05-25T11:08:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TestGPCPeopleSoft.TC_POC_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecording -->
+        <test-method status="PASS" signature="TC_POC_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="TC_POC_002" duration-ms="77996" started-at="2017-05-25T11:08:38Z" data-provider="standardBillingMay18" finished-at="2017-05-25T11:09:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5/22/2017]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400382]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Trac Rental]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[303.94]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[654500]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[100705]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Express Auto Care]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[10000119992]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_POC_002 -->
+        <test-method status="PASS" signature="stoprec()[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="stoprec" is-config="true" duration-ms="0" started-at="2017-05-25T11:09:56Z" finished-at="2017-05-25T11:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stoprec -->
+        <test-method status="PASS" signature="startRecording(java.lang.reflect.Method)[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="startRecording" is-config="true" duration-ms="34" started-at="2017-05-25T11:09:56Z" finished-at="2017-05-25T11:09:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TestGPCPeopleSoft.TC_POC_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecording -->
+        <test-method status="PASS" signature="TC_POC_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="TC_POC_002" duration-ms="66334" started-at="2017-05-25T11:09:56Z" data-provider="standardBillingMay18" finished-at="2017-05-25T11:11:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5/22/2017]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[407252]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Trac Rental]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[558]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[654500]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[100705]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Grimes Trucking]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[10000119993]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_POC_002 -->
+        <test-method status="PASS" signature="stoprec()[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="stoprec" is-config="true" duration-ms="1" started-at="2017-05-25T11:11:02Z" finished-at="2017-05-25T11:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stoprec -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.TestGPCPeopleSoft@1280682]" name="tearDown" is-config="true" duration-ms="8490" started-at="2017-05-25T11:11:02Z" finished-at="2017-05-25T11:11:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestGPCPeopleSoft -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

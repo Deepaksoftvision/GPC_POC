@@ -1,0 +1,5 @@
+pageObjects\modules\GMailPageObjects.class
+pageObjects\modules\PeopleSoftLoginPage.class
+tests\TestGPCPeopleSoft.class
+pageObjects\initializePageObjects\PageFactoryInitializer.class
+pageObjects\modules\GoogleHomePageObjects.class

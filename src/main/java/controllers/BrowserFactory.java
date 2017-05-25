@@ -64,7 +64,13 @@ public class BrowserFactory extends TestHelper
 		{
 			if (OSName.contains("Windows")) 
 			{
+				
 				System.setProperty("webdriver.chrome.driver", WindowsDrivers + "chromedriver.exe");
+			/*	ChromeOptions options = new ChromeOptions();
+                options.addArguments("--start-maximized");
+                options.addArguments("--disable-web-security");
+                options.addArguments("--no-proxy-server");*/
+				
 				driver = new ChromeDriver();
 				driver.manage().window().maximize();
 				driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);

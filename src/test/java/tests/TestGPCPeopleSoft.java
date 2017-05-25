@@ -23,13 +23,13 @@ public class TestGPCPeopleSoft extends PageFactoryInitializer {
 			String Description, String Quantity,String UnitPrice, String Extended, String Account, 
 			String OperatingUnit,String Department, String Product, String Affiliate, String	State_Prov, 
 			String SubAccount, String Project, String Code, String note,String Invoice, 
-			String SPI_Comments) throws Exception
+			String SPI_Comments, String Rownum) throws Exception
 	{
 		loginPage()
 		.clickOnFavorities()
 		.clickOnStandardBilling()
 		.clickOnAddANewValueTab()
-		//.enterBusinessUnit(BusinessUnit)
+		.enterBusinessUnit(BusinessUnit)
 		.enterInvoice("NEXT")
 		.enterBillTypeIdentifier("INV")
 		.enterBillSource("APG")
@@ -54,8 +54,8 @@ public class TestGPCPeopleSoft extends PageFactoryInitializer {
 		.clickOnNotes()
 		.enterNotes(note)
 		.clickOnSaveButton()
-		.getInvoiceValue();
-		
+		.getInvoiceValue(Integer.parseInt(Rownum));
+	
 	}
 
 	

@@ -103,7 +103,7 @@ public class ExcelUtils
 			int ci,cj;
 			int totalRows = ExcelUtils.xlsxRowCount();
 			int totalCols = ExcelUtils.xlsxColumnCount();
-			tabArray=new String[totalRows-1][totalCols];
+			tabArray=new String[totalRows-2][totalCols+1];
 			ci=0;
 			for (int i=startRow;i<totalRows;i++) 
 			{           	   
@@ -113,6 +113,7 @@ public class ExcelUtils
 					tabArray[ci][cj]=getCellData(i,j);
 					cj++;
 				}
+				tabArray[ci][totalCols] = Integer.toString(i);
 				ci++;
 			}
 		}

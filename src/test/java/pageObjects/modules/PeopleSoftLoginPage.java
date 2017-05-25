@@ -12,6 +12,8 @@ import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
@@ -195,7 +197,7 @@ public class PeopleSoftLoginPage extends PageFactoryInitializer
 	public PeopleSoftLoginPage enterInvoice(String string1) throws Exception 
 	{
 		Thread.sleep(5000);
-		switchToFrameByWebElement(frame_AddANewValue);
+	//	switchToFrameByWebElement(frame_AddANewValue);
 		FluentWaiting.waitUntillElementToBeVisible(30, 500, addNewValue_Invoice);
 		addNewValue_Invoice.clear();
 		addNewValue_Invoice.sendKeys(string1);
@@ -264,12 +266,15 @@ public class PeopleSoftLoginPage extends PageFactoryInitializer
 		FluentWaiting.waitUntillElementToBeVisible(30, 500, infoPage_Fields_PayTerms);
 		infoPage_Fields_PayTerms.clear();
 		infoPage_Fields_PayTerms.sendKeys(string);
+		switchOutOfFrame();
 		return this;
 	}
 
 
 	public PeopleSoftLoginPage clickOnLineInfoTab() throws Exception
 	{
+		Thread.sleep(5000);
+		switchToFrameByWebElement(frame_AddANewValue);
 		FluentWaiting.waitUntillElementToBeClickable(30, 500, infoPage_Tabs_LineInfo);
 		infoPage_Tabs_LineInfo.click();
 		switchOutOfFrame();
@@ -415,54 +420,32 @@ public class PeopleSoftLoginPage extends PageFactoryInitializer
 	}
 
 
-	public PeopleSoftLoginPage getInvoiceValue() throws Exception
+	public PeopleSoftLoginPage getInvoiceValue(int rowNum) throws Exception
 	{
 		Thread.sleep(10000);
 		FluentWaiting.waitUntillElementToBeVisible(30, 500, getInvoiceNumber);
 		String InvoiceNumber = getInvoiceNumber.getText();
 		System.out.println(getInvoiceNumber.getText());
 		Reporter.log(getInvoiceNumber.getText());
-		File src = new File("C:\\Users\\sahana.ak\\Test123.xls");
-		
-		System.out.println("Deepak");
-		FileInputStream fis = new FileInputStream(src);
-		FileOutputStream fos = null;
-		
-		HSSFWorkbook Wb = new HSSFWorkbook(fis);
-		HSSFSheet sheet1 = Wb.getSheetAt(0);
-		HSSFRow row = null;
-		HSSFCell cell= null;
-		
-		int column = 0;
-		
-		row = sheet1.getRow(0);
-		for(int i=0;i<row.getLastCellNum()-1;i++)
-		{
-			if(row.getCell(i).getStringCellValue().trim().equals(InvoiceNumber));
-			{
-				column=i++;
-				
-			}
-			
-		}
-		
-		row = sheet1.getRow(2);
-		if(row==null)
-			row = sheet1.createRow(2);
-		
-		cell = row.getCell(column);
-		
-		if(cell==null)
-			
-			cell =row.createCell(column);
-		
-		cell.setCellValue(InvoiceNumber);
-		fos=new FileOutputStream(src);
-		Wb.write(fos);
-		fos.close();
-		System.out.println("End");
 		switchOutOfFrame();
-		return this;
+		
+		
+		 FileInputStream fis =null;
+         FileOutputStream fos=null;
+         File src = new File("C:\\Users\\sahana.ak\\Test123.xls");
+         File src1 =  new File("C:\\Users\\sahana.ak\\Test123.xls");
+         fis= new FileInputStream(src); //Read Mode
+         HSSFWorkbook wh = new HSSFWorkbook(fis);// create work book and save it in a memory
+         HSSFSheet sheet = wh.getSheetAt(0); // first sheet       
+       
+       
+          Row r = sheet.getRow(rowNum);
+         Cell c = r.createCell(18);
+         c.setCellValue(InvoiceNumber);
+         fos = new FileOutputStream(src1);
+         wh.write(fos);       
+         fos.close();
+       return this;
 	}
 
 
